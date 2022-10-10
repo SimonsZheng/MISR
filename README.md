@@ -11,4 +11,4 @@ To install requirements:
 
 ### Simulation
 
-To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model $\uppercase\expandafter{\romannumeral1}$ $\grave{\eta}$
+To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model 1)
