@@ -11,4 +11,6 @@ To install requirements:
 
 ### Simulation
 
-To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model 1)
+To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model 1) and distributional setting 1), run the following command:
+
+    python3 midr_demo.py --model=1 --scenario=1 --latent_dim=1
