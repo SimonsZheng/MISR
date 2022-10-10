@@ -11,6 +11,12 @@ To install requirements:
 
 ### Simulation
 
-To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model 1) and distributional setting 1), run the following command:
+To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the MSRL results for model 1) and distributional setting 1), run the following command:
 
     python3 midr_demo.py --model=1 --scenario=1 --latent_dim=1
+    
+To obtain the SDR results for model 1) and distributional setting 1), run the following command:
+    
+    python3 sdr_demo.py --model=1 --scenario=1 --latent_dim=1
+    
+The default dimension $p$ of the covariate vector is 10. If you want to obtain the results for $p=30$, assign the value 30 to the variable $p$ in midr_demo.py and sdr_demo.py.
