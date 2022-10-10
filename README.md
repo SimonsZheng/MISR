@@ -6,3 +6,9 @@ This repository contains the reproducible codes for the numerical results in the
 To install requirements:
 
     pip install -r requirements.txt
+
+## Numerical Experiments
+
+### Simulation
+
+To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the results for model \rm{1}
