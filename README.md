@@ -24,3 +24,11 @@ The default dimension $p$ of the covariate vector is 10. If you want to obtain t
 ### The superconductivity dataset
 
 The dataset is available at [https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data).
+
+### The Pole-Telecommunication dataset
+
+The dataset is available at [https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html](https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html).
+
+### The MNIST dataset
+
+The dataset is available at [http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist)
