@@ -23,7 +23,7 @@ After running midr_demo.py, to obtain the SDR results for model 1) and distribut
     
     python3 sdr_demo.py --model=1 --scenario=1 --latent_dim=1
     
-The default dimension $p$ of the covariate vector is 10. If you want to obtain the results for $p=30$, assign the value 30 to the variable $p$ in midr_demo.py and sdr_demo.py.
+The default dimension $p$ of the covariate vector is 10. If the users want to obtain the results for $p=30$, please assign the value 30 to the variable $p$ in midr_demo.py and sdr_demo.py.
 
 ### The superconductivity dataset
 
