@@ -9,9 +9,11 @@ To install requirements:
 
 ## Numerical Experiments
 
+### The preliminary example
+
 ### Simulation
 
-To reproduce the results for the simulation study in the paper, the files in should be implemented. For example, to obtain the MSRL results for model 1) and distributional setting 1), run the following command:
+To reproduce the results for the simulation study in the paper, the files in the folder "Simulation Study" should be implemented. For example, to obtain the MSRL results for model 1) and distributional setting 1) in Table 1, run the following command:
 
     python3 midr_demo.py --model=1 --scenario=1 --latent_dim=1
     
@@ -23,11 +25,11 @@ The default dimension $p$ of the covariate vector is 10. If you want to obtain t
 
 ### The superconductivity dataset
 
-The dataset is available at [https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data).
+The dataset is available at [https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data). The implementation codes for Table 3 are contained in the folder "DataSuperConduct" and the ones for Figure 3 are contained in the folder "DataSuperConduct-Drawing".
 
 ### The Pole-Telecommunication dataset
 
-The dataset is available at [https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html](https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html).
+The dataset is available at [https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html](https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSets.html). The implementation codes for Table 4 are contained in the folder "DataPole" and the ones for Figure 4 are contained in the folder "DataPole-Drawing".
 
 ### The MNIST dataset
 
@@ -37,6 +39,6 @@ The dataset is available at [http://yann.lecun.com/exdb/mnist](http://yann.lecun
 
 The codes are contained in the folder "Intrinsic-Dim-Estimation".
 
-To obtain the simulation results for $\eta=0.1$ in Table 5 of the paper, run the following command:
+To obtain the simulation results for $\eta=0.1$ in Table 6 of the paper, run the following command:
 
     python3 d-est.py --eta=0.1
