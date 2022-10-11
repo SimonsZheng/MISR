@@ -55,7 +55,7 @@ The implementation requirements are the same as the aforementioned ones for the 
 
 The dataset is available at [http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist).  The implementation codes for Table 5 of the paper are contained in the folder "MNIST-Analysis"
 
-To reproduce the results for $d=16$ and $n=3000$ in Table 3 of the paper, the users should run the following commands in orders in the folder "MNIST-Analysis":
+As an illustration, when reproducing the results for $d=16$ and $n=3000$ in Table 3 of the paper, the users should run the following commands in orders in the folder "MNIST-Analysis":
 
     python3 python3 train.py --latent_dim=16 --train=3000
     python3 python3 sdr_demo.py --latent_dim=16 --train=3000
