@@ -32,3 +32,11 @@ The dataset is available at [https://www.dcc.fc.up.pt/~ltorgo/Regression/DataSet
 ### The MNIST dataset
 
 The dataset is available at [http://yann.lecun.com/exdb/mnist](http://yann.lecun.com/exdb/mnist)
+
+### Intrinsic dimension estimation
+
+The codes are contained in the folder "Intrinsic-Dim-Estimation".
+
+To obtain the simulation results for $\eta=0.1$ in Table 5 of the paper, run the following command:
+
+    python3 d-est.py --eta=0.1
