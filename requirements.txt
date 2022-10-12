@@ -1,0 +1,65 @@
+absl-py==1.0.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+async-timeout==4.0.2
+attrs==21.4.0
+cachetools==5.0.0
+certifi==2020.12.5
+charset-normalizer==2.0.11
+cycler==0.10.0
+dill==0.3.4
+frozenlist==1.3.0
+fsspec==2022.1.0
+future==0.18.2
+grpcio==1.43.0
+idna==3.3
+importlib-metadata==4.10.1
+joblib==1.1.0
+kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1612282420641/work
+Markdown==3.3.6
+matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1613407855456/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+multidict==6.0.2
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603570489231/work
+oauthlib==3.2.0
+olefile==0.46
+openturns==1.18
+packaging==21.3
+pandas==1.4.0
+Pillow @ file:///tmp/build/80754af9/pillow_1617383569452/work
+protobuf==3.19.4
+psutil==5.9.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyDeprecate==0.3.1
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytorch-fid==0.2.1
+pytorch-lightning==1.5.9
+pytz==2021.3
+PyYAML==6.0
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scikit-learn==1.0.2
+scipy==1.7.3
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1605205327372/work
+sklearn==0.0
+tensorboard==2.8.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu102
+torchaudio==0.8.1
+torchmetrics==0.7.0
+torchvision==0.9.1+cu102
+tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
+tqdm==4.62.3
+typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
+urllib3==1.26.8
+Werkzeug==2.0.2
+yarl==1.7.2
+zipp==3.7.0
